@@ -1,0 +1,64 @@
+header { 
+        color: #000000;
+        font-size: 2em; 
+        font-weight: bold;
+        padding: 5px 20px 20px;
+        text-align: center;
+        border-bottom: solid;
+}
+nav a:hover{background-color: yellow;}
+h1 a:link{ color: black;}
+h1 a:visited{color: red;}
+header a{ a:link{#000000;}
+text-decoration: none;}
+
+nav{text-align: center;}
+
+ nav a {color: #000000;
+  display: inline;
+  text-align: center;
+  padding: 2px 2px;
+  text-decoration: none;
+  font-size: 1.3em;
+  border: solid;
+  border-color: #000000
+  }
+  
+           
+body{ background-color: #F5F5DC;
+background-image: url(Background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #000000;
+}
+
+
+
+p {font-size: 1.2em;}
+
+li { font-size: 1.1em;}
+
+footer { padding 1px 1px 1px
+background-color: #FFFFFF;}
+
+@media only screen and (max-width: 1024px) {
+	body{margin: 0;}
+	#wrapper {width: auto;}
+	main {margin-left: 0;}
+	nav {float: none; width: auto;}
+	nav li {display: block; padding: .5em;}
+	nav ul {text-align: center;}
+	nav a {border: 1px ridge #000000}
+	h1, h2 {font-size: 110%;}
+	p {font-size: 90%;}
+	}
+@media only screen and (max-width: 768px){
+h1, h2 {font-size: 110%;}
+p {font-size: 90%;}
+figure {display: none;}
+nav, nav ul, nav li {padding: 0;}
+nav li {display: block;}
+nav a {display: block; padding: .5em; 0;
+		border: 1px ridge #000000}
+}
